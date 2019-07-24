@@ -1,0 +1,12 @@
+<div class="container mt-5 p-5">
+    <form [formGroup]="myForm">
+        <div class="form-group">
+          <label for="fullName">FullName</label>
+          <input type="text"  formControlName="fullName"class="form-control" id="fullName" aria-describedby="fullName" placeholder="Enter fullName">
+        </div>
+        <button type="button" class="btn btn-success" (click)='save()'>Save</button>
+      </form>
+</div>
+ 
+
+
